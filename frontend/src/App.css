@@ -1,0 +1,45 @@
+@import url("https://fonts.cdnfonts.com/css/hacked");
+@font-face {
+  font-family: "Mokoto Glitch Two";
+  src: url("../public/ttf/mokoto-mokoto-regular-glitch-mark-2-400.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* In App.css or global.css */
+.neon {
+  color: white;
+  text-shadow: 0 0 0px #fff, /* White inner glow */ 0 0 0px #fff,
+    /* White outer glow */ 0 0 3px #0ff, /* Cyan outer glow */ 0 0 2px #0ff,
+    /* Cyan outer glow */ 0 0 2px #0ff, /* Cyan outer glow */ 0 0 2px #0ff,
+    /* Cyan outer glow */ 0 0 6px #0ff; /* Cyan outer glow */
+}
+/* In App.css or global.css */
+.neon-border {
+  box-shadow: 0 0 0px #fff, 0 0 0px #fff, 0 0 3px #fff, 0 0 2px #fff,
+    0 0 2px #fff, 0 0 2px #fff, 0 0 6px #fff;
+}
+
+.neon-border-cyan {
+  border: 2px solid white; /* White inside border */
+  box-shadow: 0 0 5px white, /* White inner glow */ 0 0 15px cyan,
+    /* Cyan outer glow */ 0 0 30px cyan, 0 0 45px cyan; /* Intensifies the cyan glow */
+}
+/* Neon White Effect */
+.neon-white {
+  text-shadow: 0 0 0px #fff, 0 0 0px #fff, 0 0 3px #fff, 0 0 2px #fff,
+    0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff, 0 0 6px #fff;
+}
+/* White Border with Neon Purple Glow Effect */
+/* Custom Tailwind CSS */
+.neon-border-indigo {
+  box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #443e9b,
+    /* Indigo-950 glow */ 0 0 30px #443e9b, 0 0 40px #443e9b, 0 0 55px #443e9b,
+    0 0 75px #443e9b;
+}
+.neon-border-cyan-glow {
+  border: 10px solid white; /* White inside border */
+  box-shadow: 0 0 5px white, /* White inner glow */ 0 0 15px rgb(45, 96, 206),
+    /* Cyan outer glow */ 0 0 30px rgb(45, 96, 206), 0 0 45px rgb(45, 96, 206); /* Intensifies the cyan glow */
+}
